@@ -4,7 +4,7 @@ plugins {
 }
 
 group 'com.productboard.common'
-version '1.0.0'
+version '1.0.1'
 
 
 repositories {
@@ -34,7 +34,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.productboard.common'
             artifactId = 'liquibase-locking'
-            version = '1.0.0'
+            version = '1.0.1'
 
             from components.java
         }
